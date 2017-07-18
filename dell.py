@@ -1,3 +1,13 @@
+!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+'''
+Please install "BeautifulSoup 4" & "progressbar" via pip first:
+[user@localhost ~]$ pip install beautifulsoup4 progressbar
+Before running this script, a file 'delltags.txt' with one tag each line is required.
+Results will be exported to 'delldate.txt'.
+'''
+
 from __future__ import division
 import urllib2
 import re
